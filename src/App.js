@@ -7,7 +7,7 @@ export default function App() {
     return (
         <div class="w-full flex h-[1024px]">
             <Navbar/>
-            <Screen/>
+            <Screen className='bg-[#FCFBFC]'/>
         </div>
     );
 }
