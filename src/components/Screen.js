@@ -15,7 +15,7 @@ import CardImage3 from '../assets/Image3.png';
 export default function Screen() {
   return (
     <div className='mx-[64px] flex-grow my-[64px]'>
-        <div className='bg-[#FCFBFC]'>
+        <div className=''>
             <div className='flex items-center justify-between'>
                     <div className='text-black'>
                         <div className='font-semibold font-primary text-[38px]'>New Campaign Run</div>
@@ -27,7 +27,7 @@ export default function Screen() {
                         </h1>
                     </button>
             </div>
-            <div className='flex mt-[57px] justify-between'>
+            <div className='flex bg-white mt-[57px] justify-between'>
                 <div className='flex'>
                     <div className='flex'>
                         <img src={Member} className='rounded-[50%] border border-white-600 w-[32px]' alt='' />
